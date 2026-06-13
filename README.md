@@ -21,7 +21,7 @@
 
 ## 🚀 Featured Projects
 
-### ☕ Coffee Shop Sales Analysis
+### ☕ Revenue Optimization Analytics
 <img src="https://github.com/raiuma1116-blip/COFFEE-SHOP-SALES-ANALYSIS/blob/main/Screenshot%202026-02-06%20220429.png" width="700"/>
 📊 Excel + Power BI Dashboard | Data Visualization | KPI Analysis  
 
