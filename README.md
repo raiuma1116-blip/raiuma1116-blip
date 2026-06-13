@@ -21,6 +21,54 @@
 
 ## 🚀 Featured Projects
 
+### 🛒 Amazon India Sales & Customer Behavior Analysis
+
+<p align="center">
+  <img src="https://github.com/raiuma1116-blip/amazon-ecommerce-sales-analysis/blob/main/kpi_dashboard.png" width="900">
+</p>
+
+🐍 Python | Pandas | NumPy | Matplotlib | Seaborn | Exploratory Data Analysis
+
+#### 📊 Project Overview
+
+Conducted an end-to-end exploratory data analysis on Amazon India sales data to uncover revenue trends, customer purchasing behavior, category performance, logistics efficiency, and business growth opportunities.
+
+#### ⭐ Executive Summary
+
+- Electronics generated **₹321.34M+ revenue**, making it the highest-performing category.
+- Revenue peaked during **March and May**, revealing strong seasonal demand patterns.
+- **UPI (35.6%)** emerged as the most preferred payment method among customers.
+- **Prime members contributed 45.63%** of total revenue, indicating higher customer value and engagement.
+
+#### 🔍 Key Metrics
+
+| KPI | Value |
+|------|--------|
+| Total Revenue | ₹513.54M |
+| Total Orders | 10,000 |
+| Unique Customers | 9,958 |
+| Average Order Value | ₹51,354 |
+| Categories Analyzed | 10 |
+| States Covered | 17 |
+| Average Delivery Time | 4.51 Days |
+| Average Product Rating | 4.11 |
+
+#### 🛠 Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+#### 📈 Business Impact
+
+Provided actionable recommendations for inventory optimization, category expansion, customer retention, delivery performance improvement, and revenue growth through data-driven decision making.
+
+🔗 Repository: [View Project](https://github.com/raiuma1116-blip/amazon-ecommerce-sales-analysis)
+
+
 ### ☕ Revenue Optimization Analytics
 <img src="https://github.com/raiuma1116-blip/COFFEE-SHOP-SALES-ANALYSIS/blob/main/Screenshot%202026-02-06%20220429.png" width="700"/>
 📊 Excel + Power BI Dashboard | Data Visualization | KPI Analysis  
@@ -30,39 +78,12 @@
 - Built **interactive Power BI dashboards** for sales performance  
 - Identified **top-performing products and seasonal trends**  
 
-🔗 https://github.com/raiuma1116-blip/COFFEE-SHOP-SALES-ANALYSIS  
+🔗 Repository: [View Project](https://github.com/raiuma1116-blip/COFFEE-SHOP-SALES-ANALYSIS )
+  
 
 ---
 
-### 🍕 Pizza Sales Analysis
-🛢️ SQL | Data Analysis | Business Insights  
-### 🔍 Analysis: Most Common Pizza Size Ordered
 
-To understand customer preferences, this query identifies the most frequently ordered pizza size based on total order volume.
-
-### 📊 Key Insight
-The analysis reveals which pizza size is most popular among customers, helping businesses optimize inventory, pricing, and marketing strategies based on demand patterns.
-
-### 🛠 SQL Query
-
-```sql
--- Identify the most common pizza size ordered
-SELECT 
-    p.size AS most_common_size,
-    COUNT(o.order_details_id) AS total_orders
-FROM pizzas p
-JOIN order_details o 
-    ON o.pizza_id = p.pizza_id
-GROUP BY p.size
-ORDER BY total_orders DESC
-LIMIT 1;
-```
-- Analyzed **21K+ orders generating $817K+ revenue**  
-- Wrote **advanced SQL queries using joins, aggregations & subqueries**  
-- Performed **exploratory data analysis** to identify patterns  
-- Discovered **peak sales time** and key **revenue contributors**   
-
-🔗 https://github.com/raiuma1116-blip/SQL_PIZZA  
 
 ---
 
